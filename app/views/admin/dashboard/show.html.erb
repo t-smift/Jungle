@@ -1,2 +1,16 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<div class= "d-flex flex-column">
+<br>
+<h1 class="text-center mt5"> Admin Dashboard </h1>
+<table class="text-center mt5">
+  <h2 class="text-center mt5"> Product Stats</h2>
+  <br>
+    <tr>
+      <th> Total Products </th>
+      <th> Total Categories </th>
+    </tr>
+      <tr class= "text-center mt5">
+        <td><%= @products_count%></td>
+        <td><%= @categories_count%></td>
+    </tr>
+  </div>
+</table>
